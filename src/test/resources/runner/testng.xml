@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" parallel="methods" name="Suite">
+	<listeners>
+		<listener class-name="listeners.ExtentReport_WithTestNGListeners" />
+	</listeners>
+	<test thread-count="4" name="Used Cars Tests">
+		<classes>
+			<class name="tests.UsedCarsTests" />
+		</classes>
+	</test>
+	<test thread-count="4" name="New Cars Tests">
+		<classes>
+			<class name="tests.NewCarsTests" />
+		</classes>
+	</test>
+
+</suite> <!--
+Suite -->
